@@ -1,0 +1,7 @@
+const prompt = require('prompt-sync')();
+let valor_a = prompt("Digite seu número");
+let valor_b = prompt("Digite seu número");
+let numero1= Number(valor_a);
+let numero2 = Number(valor_b);
+let soma = (numero1+numero2);
+console.log(numero1+numero2);

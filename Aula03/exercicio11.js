@@ -1,0 +1,11 @@
+const prompt = require('prompt-sync')();
+let litro_combustivel = Number(prompt("Digite o preço do litro do combustivel: "));
+console.log(litro_combustivel);
+let distancia = Number(prompt("Digite a distância que será percorrida: "));
+console.log(distancia);
+let consumo = Number(prompt("Quanto o veiculo consome por km/l: "));
+console.log(consumo);
+let divisao = (distancia / consumo);
+console.log("Seu veiculo irá gastar por km/l: " + divisao);
+let multiplicacao = (divisao * litro_combustivel);
+console.log("O valor total do combutivel gasto é R$: "+multiplicacao);

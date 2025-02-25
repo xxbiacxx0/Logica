@@ -1,0 +1,13 @@
+const prompt = require('prompt-sync')();
+let N1 = Number(prompt("Digite um número"));
+let P1 = Number(prompt("Digite um número"));
+let N2 = Number(prompt("Digite um número"));
+let P2 = Number(prompt("Digite um número"));
+let N3 = Number(prompt("Digite um número"));
+let P3 = Number(prompt("Digite um número"));
+let N4 = Number(prompt("Digite um número"));
+let P4 = Number(prompt("Digite um número"));
+let N5 = Number(prompt("Digite um número"));
+let P5 = Number(prompt("Digite um número"));
+let media = ((N1*P1+N2*P2+N3*P3+N4*P4+N5*P5)/(P1+P2+P3+P4+P5));
+console.log(media);
